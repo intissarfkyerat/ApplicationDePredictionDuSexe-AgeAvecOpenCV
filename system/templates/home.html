@@ -1,0 +1,125 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width, initial-scale-1.0">
+     <title>Système intelligente</title>
+     <link rel="icon" href="static/images/icone.png" type="image/x-icon">
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">  
+     <link rel="stylesheet" href="{% static 'css/style1.css' %}">     
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+     <style>
+          .home{
+               background-image: url(static/images/back.png);
+               background-size: cover;
+               background-position: center;
+          }
+          .home-content .text-animate h3{
+               background: url(static/images/i5.png);
+               font-size: 6rem;
+	          font-weight: 800;
+               font-family: 'Times New Roman', Times, serif;
+	          color: transparent;
+	         -webkit-text-stroke: 1px #a810a8;
+               background: url(static/images/i8.png);
+               -webkit-background-clip: text;
+               background-position: 0 0;
+               animation: backText 90s linear infinite alternate;
+          }
+          span{
+               color: #f32dfa;
+          }
+     </style>
+</head>
+<body>
+    <header class="header">
+       <a href="#" class="logo">Pred.<span>E.A.S.</span></a>
+       <div class="bx bx-menu" id="menu-icon"></div>
+       <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#contact">Contact</a>
+       </nav>
+
+    </header>
+
+    <section class="home" id="home">
+         <div class="home-content">
+            <h1><span></span></h1>
+            <div class="text-animate">
+               <h3>Predection d'emotions,
+                 d'Age et Sexe</h3>
+            </div>
+            <p>Prédiction en direct des émotions, de l'âge et du sexe<br>
+                à l'aide de modèles pré-entraînés.<br>
+                 Utilise le classificateur Haar Cascades pour détecter le visage. <br>
+                 Ensuite, utilise des modèles pré-formés pour l'émotion, <br>
+                 le sexe et l'âge pour les prédire à partir d'un flux vidéo en direct <br><br><br>
+          </p>
+               <div class="btn-box">
+                    <a href="https://morioh.com/p/0e8decbf6ca2" class="btn">Learn More</a>
+               </div>
+         </div>
+         <div class="home-sci">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+         </div>
+         <div class="home-imgHover"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class = "image">
+            <img src="https://cdn.pixabay.com/photo/2017/08/26/23/37/business-2684758__340.png">
+         </div>
+
+         <div class = "content">
+             <h2>About Us</h2>
+             <span><!-- line here --></span>
+             <p style="font-size: 22px;">Alors about ce Système qui nous permettons
+                 à prédicter les émotions,<br>
+                l'âge et le sexe. à l'aide d'une capture vidéo<br>
+                 <br><br><br>
+          </p>
+         </div>
+    </section>
+
+    <section class="service" id="service">
+    </section>
+    <section class="contact" id="contact">
+     <div class="formBox">
+          <h2>Contact Us</h2>
+          <p></p>
+          <form action="#">
+              <div class="nameInp">
+                 
+                  <input type="text" placeholder="Nom" name="name" id="name">
+              </div>
+              <div class="mailInp">
+                  
+                  <input type="email" name="mail" id="Email" placeholder="Email">
+              </div>
+              <div class="phoneInp">
+                  
+                  <input type="number" name="phone" id="Telephone" placeholder="Phone" min="100000" max="9999999999">
+              </div>
+              <div class="queryInp">
+                  <textarea name="query" id="query" cols="30" rows="5"
+                      placeholder="Tout commentaire ou votre demande"></textarea>
+              </div>
+              <div class="submitBtn">
+                  <button id="btn" onclick="notif()">Send</button>
+              </div>
+          </form>
+          <p class="extra">Vous pouvez également nous contacter au +212 677 784 895</p>
+      </div>
+    </section>
+          
+    <script src="{% static 'script/script.js' %}"></script>
+</body>
+</html>

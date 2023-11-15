@@ -1,0 +1,433 @@
+
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	background: #3c64f5;
+	padding-bottom: 6rem;
+}
+
+.heading{
+	font-size: 5rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.home-content .text-animate h3{
+	font-size: 4rem;
+	font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+	color: transparent;
+	-webkit-text-stroke: 1px #a810a8;
+    background: url(static/images/i5.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backText 1s linear infinite alternate;
+
+}
+
+@keyframes backText{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.service {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	background: #3c64f5;
+	padding-bottom: 6rem;
+}
+
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	background: #3c64f5;
+	padding-bottom: 6rem;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+            .contact {
+                background-image: linear-gradient(40deg,
+                        hsl(240deg 56% 48%) 0%,
+                        hsl(250deg 48% 49%) 10%,
+                        hsl(260deg 40% 49%) 24%,
+                        hsl(271deg 34% 50%) 42%,
+                        hsl(285deg 28% 50%) 57%,
+                        hsl(305deg 24% 50%) 68%,
+                        hsl(325deg 29% 54%) 75%,
+                        hsl(340deg 34% 58%) 81%,
+                        hsl(354deg 40% 62%) 85%,
+                        hsl(358deg 39% 63%) 89%,
+                        hsl(353deg 31% 62%) 92%,
+                        hsl(345deg 22% 61%) 94%,
+                        hsl(330deg 14% 60%) 96%,
+                        hsl(284deg 9% 60%) 97%,
+                        hsl(232deg 12% 62%) 98%,
+                        hsl(212deg 22% 61%) 99%,
+                        hsl(204deg 32% 60%) 100%,
+                        hsl(200deg 41% 58%) 100%);
+                background-repeat: no-repeat;
+                height: 99vh;
+                overflow-y: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            .formBox {
+                padding: 15px;
+                text-align: center;
+                min-height: 50vh;
+                min-width: 50vw;
+                display: flex;
+                flex-direction: column;
+                background: #f8f8f885;
+                border-radius: 30px;
+                backdrop-filter: blur(10px);
+
+            }
+
+            h2 {
+                margin-bottom: -10px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+
+            form {
+                padding: 10px;
+            }
+
+            form>div {
+                padding: 10px;
+                position: relative;
+                font-size: 1.3em;
+            }
+
+            form>div i {
+                position: absolute;
+                top: 22px;
+                margin-left: 10px;
+                opacity: 0.6;
+            }
+
+            form>div input {
+                height: 2em;
+                width: 70vw;
+                padding-left: 40px;
+                font-size: 1em;
+                border-radius: 20px;
+                outline: none;
+                border: 1px solid #b5adad;
+                background-color: #f1f1f1;
+            }
+
+            div>input:focus {
+                border: 1px solid #6f6a6a;
+
+            }
+
+            form>div:hover>i {
+
+                opacity: 1;
+                transition: opacity 1s;
+            }
+
+            textarea {
+                border: none;
+                width: 70vw;
+                border-radius: 20px;
+                padding: 10px;
+                outline: none;
+                font-size: 1em;
+            }
+
+            button {
+                width: 50%;
+                height: 5vh;
+                color: #ffffff;
+                background: #a810a8;
+                outline: none;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 0.8em;
+            }
+
+            @media screen and (min-width:900px) {
+                form>div input {
+                    width: 50vw;
+                }
+
+                textarea {
+                    width: 50vw;
+                }
+            }
+
+
+.about {
+    background-image: linear-gradient(40deg,
+            hsl(240deg 56% 48%) 0%,
+            hsl(250deg 48% 49%) 10%,
+            hsl(260deg 40% 49%) 24%,
+            hsl(271deg 34% 50%) 42%,
+            hsl(285deg 28% 50%) 57%,
+            hsl(305deg 24% 50%) 68%,
+            hsl(325deg 29% 54%) 75%,
+            hsl(340deg 34% 58%) 81%,
+            hsl(354deg 40% 62%) 85%,
+            hsl(358deg 39% 63%) 89%,
+            hsl(353deg 31% 62%) 92%,
+            hsl(345deg 22% 61%) 94%,
+            hsl(330deg 14% 60%) 96%,
+            hsl(284deg 9% 60%) 97%,
+            hsl(232deg 12% 62%) 98%,
+            hsl(212deg 22% 61%) 99%,
+            hsl(204deg 32% 60%) 100%,
+            hsl(200deg 41% 58%) 100%);
+    background-repeat: no-repeat;
+    height: 99vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.service {
+    background-image: linear-gradient(40deg,
+            hsl(240deg 56% 48%) 0%,
+            hsl(250deg 48% 49%) 10%,
+            hsl(260deg 40% 49%) 24%,
+            hsl(271deg 34% 50%) 42%,
+            hsl(285deg 28% 50%) 57%,
+            hsl(305deg 24% 50%) 68%,
+            hsl(325deg 29% 54%) 75%,
+            hsl(340deg 34% 58%) 81%,
+            hsl(354deg 40% 62%) 85%,
+            hsl(358deg 39% 63%) 89%,
+            hsl(353deg 31% 62%) 92%,
+            hsl(345deg 22% 61%) 94%,
+            hsl(330deg 14% 60%) 96%,
+            hsl(284deg 9% 60%) 97%,
+            hsl(232deg 12% 62%) 98%,
+            hsl(212deg 22% 61%) 99%,
+            hsl(204deg 32% 60%) 100%,
+            hsl(200deg 41% 58%) 100%);
+    background-repeat: no-repeat;
+    height: 99vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+.image{
+    
+    display: flex;
+    border-radius: 12px 0 0 12px;
+}
+.image img{
+height:50vh;
+margin:50px auto
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0  12px 12px 0;
+    color: #fff;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+    color:#ffffff
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 2px solid #4158D0;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #C850C0;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 3px;
+    background: #C850C0;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #C850C0;
+    cursor: pointer;
+}
+
+
+/*****************/
+
+@media(max-width: 900px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+    .image{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:#f5f0f0;
+    font-weight: bold;
+  } 
+
+
+
+  .cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  height:300px;
+  width:25%;
+  color:#ffff;
+  background-color:#000 ;
+  border-radius: 8px; 
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.card1:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.fa{
+    padding:10px 0;
+    color: #f9f8f5;
+}
+.p1{
+    position: relative;
+    color:#fff;
+    padding:5px 30px;
+    font-size:14px;
+    background-color:#f541f5;
+    border-radius: 6px;
+}
+.u1{
+    color:black;
+    padding:5px;
+    text-align: center;
+    font-size: 30px;
+}
+.credit a{
+text-decoration: none;
+color: #fff;
+font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+}
